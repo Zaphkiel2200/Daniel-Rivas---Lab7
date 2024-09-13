@@ -7,7 +7,16 @@ Debe contener al menos un número.
 Si cumple con ambas, retornar "Contraseña válida", de lo contrario "Contraseña no válida".
 */
 function validarContrasena(contrasena) {
-    // TODO: Resolver
+    if (contrasena.length < 8) {
+        return "Contraseña no válida";
+    }
+    const tieneNumero = /\d/.test(contrasena);
+
+    if (!tieneNumero) {
+        return "Contraseña no válida";
+    }
+    return "Contraseña válida";
+} 
 }
 
 console.log("-----------------------------------")
