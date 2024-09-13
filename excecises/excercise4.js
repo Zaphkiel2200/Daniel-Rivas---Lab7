@@ -10,7 +10,7 @@ function calculadora(operacion, num1, num2) {
         case "suma":
             return num1 + num2;
         case "resta":
-            return num1 - num2;   // No pide resta JSALKDSADJASD
+            return num1 - num2;  
         case "multiplicacion":
             return num1 * num2;
         case "division":
