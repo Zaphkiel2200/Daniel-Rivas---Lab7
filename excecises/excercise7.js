@@ -17,7 +17,7 @@ function validarContrasena(contrasena) {
     }
     return "Contraseña válida";
 } 
-}
+
 
 console.log("-----------------------------------")
 console.log("EJERCICIO 7")
